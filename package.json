@@ -2,7 +2,6 @@
   "name": "heavy-machinery-market",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://SibSurfer.github.io/heavymach-site",
   "dependencies": {
     "@date-io/date-fns": "^3.0.0",
     "@emotion/react": "^11.13.5",

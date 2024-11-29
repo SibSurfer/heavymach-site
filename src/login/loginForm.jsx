@@ -32,7 +32,7 @@ const LoginForm = () => {
             if (username === "admin@service.com") {
                 const usersSnapshot = await getDocs(collection(db, "users"));
                 const batch = writeBatch(db);
-                const operations = []; // Array to collect batch operations
+                const operations = []; // for batch operations
 
                 for (const docSnapshot of usersSnapshot.docs) {
                     const user = docSnapshot.data();
