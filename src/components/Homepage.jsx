@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import FstImg from "../img/noroot.webp";
+import FstImg from "../img/fstImg.jpg";
 import ClockImg from "../img/clock_light.png";
 import HelpImg from "../img/help.png";
 import CakeImg from "../img/cake.png";
 import EmojiImg from "../img/emoji_light.png";
-import ManagerImg from "../img/manager.webp";
-import { Link, useNavigate } from "react-router-dom";
+import ManagerImg from "../img/thdImg.jpg";
+import { Link } from "react-router-dom";
 import "../index.css"
 
 const HomePage = () => {
@@ -18,7 +18,7 @@ const HomePage = () => {
     <main>
         <section>
             <div className="container">
-                <div className="section__title title__text">Сэкономим ваше время: услуги спецтехники в аренду без звонков и переговоров</div>
+                <div className="section__title title__text">Экономим ваше время: аренда спецтехники без звонков и переговоров</div>
             </div>
             
             <div className="container section__descr">
