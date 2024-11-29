@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/heavymach-site/static/css/main.478ed490.css",
+    "main.js": "/heavymach-site/static/js/main.8fdc8024.js",
+    "static/media/cake.png": "/heavymach-site/static/media/cake.d753359e1a4cfb7a593e.png",
+    "static/media/help.png": "/heavymach-site/static/media/help.e539568debdf67b59095.png",
+    "static/media/emoji_light.png": "/heavymach-site/static/media/emoji_light.ce22444ee4695a15ab9e.png",
+    "static/media/clock_light.png": "/heavymach-site/static/media/clock_light.b6d6b9541ee6deff0189.png",
+    "static/media/noroot.webp": "/heavymach-site/static/media/noroot.c0475a35709956030f28.webp",
+    "static/media/excavator-inside-the-gear-logo-free-vector.jpg": "/heavymach-site/static/media/excavator-inside-the-gear-logo-free-vector.646f1b54c1764825a8f0.jpg",
+    "static/media/manager.webp": "/heavymach-site/static/media/manager.03a791618330de7549c7.webp",
+    "index.html": "/heavymach-site/index.html",
+    "main.478ed490.css.map": "/heavymach-site/static/css/main.478ed490.css.map",
+    "main.8fdc8024.js.map": "/heavymach-site/static/js/main.8fdc8024.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.478ed490.css",
+    "static/js/main.8fdc8024.js"
+  ]
+}
