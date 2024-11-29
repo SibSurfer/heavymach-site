@@ -1,0 +1,127 @@
+.Form{
+    & {
+        padding-bottom: 50px;
+    }
+
+
+    #form_h1 {
+        color: #fc7327;
+        justify-content: center;
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+
+    form, .results {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 50px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    /* Form Styling */
+    form label, .label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+
+    .form-text,
+    form input[type="number"],
+    form input[type="date"],
+    form input[type="email"],
+    form input[type="tel"],
+    form input[type="url"],
+    form textarea,
+    form select {
+        width: 600px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+
+
+    form textarea, input {
+        max-width: 600px;
+        box-sizing: border-box;
+    }
+
+    form input[type="file"] {
+        margin-bottom: 15px;
+    }
+
+    form input[type="radio"],
+    form input[type="checkbox"] {
+        margin-right: 10px;
+    }
+
+    form input[type="submit"] {
+        background-color: #fc7327;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .form_radio_btn, .form_check {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    .form_radio_btn input[type=radio], .form_check input{
+        display: none;
+    }
+    .form_radio_btn label, .form_check label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0px 15px;
+        line-height: 34px;
+        border: 1px solid #999;
+        border-radius: 6px;
+        font-weight: 600;
+    }
+    .form_radio_btn input[type=radio]:checked + label, .form_check input[type=checkbox]:checked + label{
+        background: #ffe0a6;
+    }
+    .form_radio_btn label:hover, .form_check label:hover {
+        color: #666;
+    }
+
+    .label-decr {
+        padding: 10px 0;
+        text-align: start;
+        width: 100%;
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: rgb(191, 189, 188);
+    }
+    .form-item {
+        margin-bottom: 25px;
+    }
+    #category{
+        background-color: #ffe0a6;
+        width: 100%;
+    }
+
+    form input[type=number] {
+        width: auto;
+    }
+    .days {
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: 700;
+    }
+
+    .form_holder {
+        margin-bottom: 50px;
+    }
+   
+}
